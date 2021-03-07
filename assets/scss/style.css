@@ -1,10 +1,66 @@
-.body {
-  display: block;
-  height: 16px;
-  width: 66px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.body {
-  background-color: red;
+.mobile-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  color: white;
+}
+
+.background {
+  width: 106px;
+  height: 48px;
+  background-color: black;
+  padding: 16px 20px;
+}
+
+.mobile-logo {
+  width: 66px;
+  height: 16px;
+  fill: "whhite";
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 0;
+}
+
+.mobile-icons {
+  display: inline;
+}
+
+.search {
+  padding: 15px;
+  color: gray;
+  border-left: 1px solid gray;
+}
+
+.bar {
+  padding: 15px;
+  color: red;
+  border-left: 1px solid gray;
+}
+
+.advert {
+  background-color: yellow;
+  border: 2px solid yellow;
+  color: black;
+  height: 50px;
+}
+
+.advert-text {
+  vertical-align: middle;
+}
+
+.img-top {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
