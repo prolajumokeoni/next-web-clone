@@ -49,18 +49,30 @@
   border-left: 1px solid gray;
 }
 
-.advert {
+div.advert {
   background-color: yellow;
   border: 2px solid yellow;
-  color: black;
-  height: 50px;
+  padding: 10px;
 }
 
-.advert-text {
-  vertical-align: middle;
+a.advert-text {
+  text-decoration: none;
 }
 
 .img-top {
-  display: block;
+  background-image: url("/assets/images/1-copy-4-258x135.jpg");
+  background-repeat: no-repeat;
+  background-size: 344px 184px;
+  height: 184px;
+  width: 344px;
+  padding: 0 3px 5px 10px;
+  background-position: center;
+  position: relative;
+}
+
+.img-top-text {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
