@@ -10,9 +10,14 @@ section {
   margin: 0;
   padding: 0;
 }
-body,
-html {
+
+html,
+body {
   overflow-x: hidden;
+}
+
+.first-header {
+  display: inline;
 }
 
 .mobile-nav {
@@ -21,13 +26,14 @@ html {
   align-items: center;
   height: 50px;
   color: white;
+  border: 1px solid rgb(228, 222, 222);
 }
 
 .background {
   width: 106px;
-  height: 48px;
+  height: 50px;
   background-color: black;
-  padding: 16px 20px;
+  padding: 18px 22px;
 }
 
 .mobile-logo {
@@ -44,39 +50,68 @@ html {
 
 .search {
   padding: 15px;
-  color: gray;
-  border-left: 1px solid gray;
+  color: rgb(51, 51, 51);
+  border-left: 1px solid rgb(228, 222, 222);
 }
 
 .bar { 
   padding: 15px 20px;
   color: red;
-  border-left: 1px solid gray;
+  border-left: 1px solid rgb(228, 222, 222);
 }
 
 div.advert {
-  height: 30px;
-
+  height: 50px;
   background-color: yellow;
   border: 2px solid yellow;
-}
-
-.connect {
-  vertical-align: baseline;
 }
 
 a.advert-text {
   text-decoration: none;
   font-size: .7rem;
   color: black;
+  margin-top: 15px;
+}
+
+.image-section {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(180deg, red, yellow);
+  z-index: 1;
 }
 
 .img-top {
-  background-image: url("/assets/images/1-copy-4-258x135.jpg");
-  background-repeat: no-repeat;
-  background-size: 344px 184px;
-  height: 184px;
-  width: 344px;
-  background-position: center;
+  width: 100%;
+  margin: auto 0;
+  text-align: center;
+  z-index: 2;
 }
 
+.img-top-text {
+  width: 80%;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+p.img-caption {
+  display: none;
+}
+
+a.img-title {
+  font-family: 'tahoma', 'sans-serif';
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+div.img-description {
+  font-family: 'ARS Maquette', 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.text-icon {
+  margin: 0 5px;
+}
