@@ -16,9 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-.first-header {
-  display: inline;
-}
 
 .mobile-nav {
   display: flex;
@@ -76,15 +73,12 @@ a.advert-text {
 .image-section {
   display: block;
   position: relative;
-  background-image: linear-gradient(180deg, red, yellow);
-  z-index: 1;
 }
 
 .img-top {
   width: 100%;
   margin: auto 0;
   text-align: center;
-  z-index: 2;
 }
 
 .img-top-text {
