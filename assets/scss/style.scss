@@ -1,6 +1,18 @@
-*{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+section {
   margin: 0;
   padding: 0;
+}
+body,
+html {
+  overflow-x: hidden;
 }
 
 .mobile-nav {
@@ -10,6 +22,7 @@
   height: 50px;
   color: white;
 }
+
 .background {
   width: 106px;
   height: 48px;
@@ -20,7 +33,6 @@
 .mobile-logo {
   width: 66px;
   height: 16px;
-  fill: "whhite";
   vertical-align: middle;
   text-align: left;
   margin-left: 0;
@@ -37,19 +49,26 @@
 }
 
 .bar { 
-  padding: 15px;
+  padding: 15px 20px;
   color: red;
   border-left: 1px solid gray;
 }
 
 div.advert {
+  height: 30px;
+
   background-color: yellow;
   border: 2px solid yellow;
-  padding: 10px;
+}
+
+.connect {
+  vertical-align: baseline;
 }
 
 a.advert-text {
   text-decoration: none;
+  font-size: .7rem;
+  color: black;
 }
 
 .img-top {
@@ -58,13 +77,6 @@ a.advert-text {
   background-size: 344px 184px;
   height: 184px;
   width: 344px;
-  padding: 0 3px 5px 10px;
   background-position: center;
-  position: relative;
 }
 
-.img-top-text {
-  position: absolute;
-  bottom: 0;
-  color: #fff;
-}
