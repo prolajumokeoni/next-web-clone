@@ -6,6 +6,7 @@ h5,
 h6,
 p,
 div,
+body,
 section {
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ body {
   overflow-x: hidden;
 }
 
-.nav-wrapper {
+.first-nav {
   display: none;
 }
 
@@ -50,6 +51,10 @@ body {
   margin-left: 0;
 }
 
+.mobile-list-item {
+  display: none;
+}
+
 .mobile-icons {
   display: inline;
 }
@@ -70,13 +75,17 @@ div.advert {
   height: 50px;
   background-color: yellow;
   border: 2px solid yellow;
+  text-align: center;
 }
 
-a.advert-text {
-  text-decoration: none;
-  font-size: .7rem;
-  color: black;
-  margin-top: 15px;
+p.connect {
+  font-size: .1rem;
+  margin: auto 0;
+}
+
+.images {
+  margin: auto;
+  width: 95%;
 }
 
 .image-section {
