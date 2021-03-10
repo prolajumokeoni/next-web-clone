@@ -79,8 +79,22 @@ a.advert-text {
 }
 
 .image-section {
-  display: block;
   position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(136, 97, 97),black);
+    opacity: .5;
+  }
+
+  // .img-top {
+  //   filter: grayscale(1);
+  // }
 }
 
 .img-top {
