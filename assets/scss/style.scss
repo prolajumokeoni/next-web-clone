@@ -16,6 +16,14 @@ body {
   overflow-x: hidden;
 }
 
+#nav {
+  // position: static;
+  // padding: 0;
+}
+
+.nav-wrapper {
+  display: none;
+}
 
 .mobile-nav {
   display: flex;

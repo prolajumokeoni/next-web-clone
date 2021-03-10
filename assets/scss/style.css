@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+.nav-wrapper {
+  display: none;
+}
+
 .mobile-nav {
   display: -webkit-box;
   display: -ms-flexbox;
