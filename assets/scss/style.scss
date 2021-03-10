@@ -70,12 +70,14 @@ div.advert {
   height: 50px;
   background-color: yellow;
   border: 2px solid yellow;
-  text-align: center;
 }
 
 p.connect {
-  font-size: .1rem;
-  margin: auto 0;
+  font-size: 1rem;
+  margin: 15px auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .images {
