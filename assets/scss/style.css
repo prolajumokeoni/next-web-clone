@@ -209,8 +209,36 @@ a.img-title {
   width: 85%;
 }
 
+.investment-story {
+  width: 85%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.deals {
+  padding-bottom: 50%;
+}
+
 .invest-top {
-  border: 1px solid olivedrab;
-  padding: 10px 16px 10px 8px;
+  border: 1px solid #ff4422;
+  background-color: #ff4422;
+  padding: 10.6666666667px 84px 10.6666666667px 16px;
+  color: white;
+  text-align: center;
+}
+
+.flutter {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.invest-text {
+  background-color: #ff442214;
+  padding: 10.6666666667px 120px 10.6666666667px 16px;
+  line-height: .1;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
