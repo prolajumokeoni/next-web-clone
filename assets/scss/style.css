@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .first-nav {
   display: none;
 }
@@ -211,7 +215,7 @@ a.img-title {
 
 .investment-story {
   width: 85%;
-  margin: 20px auto;
+  margin: 35px auto;
   position: relative;
 }
 
@@ -252,6 +256,49 @@ a.img-title {
 }
 
 .hr-invest {
+  border: 1px solid #ff4422;
+}
+
+.last-caption {
+  color: #1d1c1c;
+}
+
+.img-caption-1 {
+  display: block;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.popular {
+  margin: auto;
+  width: 90%;
+}
+
+.most-popular {
+  position: relative;
+}
+
+.more-latest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.more-text {
   color: #ff4422;
+  background-color: #ff442214;
+  margin: 0;
+  padding: 15px;
+  font-size: .8rem;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.latest-header {
+  margin-top: 50px;
+  width: 90%;
 }
 /*# sourceMappingURL=style.css.map */
