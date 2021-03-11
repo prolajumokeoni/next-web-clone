@@ -241,4 +241,13 @@ a.img-title {
   line-height: .1;
   text-align: center;
 }
+
+.anchor-text {
+  text-decoration: none;
+  color: black;
+}
+
+.invest-icon {
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */
