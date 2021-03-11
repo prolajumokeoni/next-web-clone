@@ -287,18 +287,19 @@ a.img-title {
           align-items: center;
 }
 
+.popular-flex {
+  background-color: #ff442214;
+}
+
 .more-text {
   color: #ff4422;
-  background-color: #ff442214;
-  margin: 0;
-  padding: 15px;
   font-size: .8rem;
   font-weight: bolder;
   text-align: left;
 }
 
-.latest-header {
-  margin-top: 50px;
-  width: 90%;
+.latest-image {
+  width: 100px;
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
