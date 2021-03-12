@@ -204,10 +204,6 @@ a.img-title {
   position: relative;
 }
 
-.deals {
-  padding-bottom: 50%;
-}
-
 .invest-top {
   border: 1px solid #ff4422;
   background-color: #ff4422;
@@ -264,26 +260,56 @@ a.img-title {
 }
 
 .more-latest {
+  width: 100%;
+  height: 100px;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .popular-flex {
   background-color: #ff442214;
+  height: 100px;
 }
 .more-text {
   color: #ff4422;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: bolder;
-  text-align: left;
+  padding-left: 15px;
 }
 
 .latest-header {
+  width: 30%;
+  padding: 5px;
   color: #ff4422;
   font-weight: bolder;
+  padding-left: 15px;
 }
 
 .latest-image {
-  width: 100px;
-  height: 100px;
+  margin-top: -30px;
+  width: 95px;
+  height: 95px;
+}
+
+.deals-item {
+  width: 95%;
+  padding-left: 2px;
+  margin: auto 0;
+  font-size: .7rem;
+  list-style: none;
+}
+
+.deals-item li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.deals-hr {
+  width: 80%;
+  padding-left: 0;
+  margin: auto 0;
 }
