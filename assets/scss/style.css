@@ -266,7 +266,7 @@ a.img-title {
 }
 
 .popular {
-  margin: auto;
+  margin: 0 auto 20rem auto;
   width: 90%;
 }
 
@@ -312,10 +312,9 @@ a.img-title {
 }
 
 .deals-item {
-  width: 95%;
-  padding-left: 2px;
+  width: 80%;
   margin: auto 0;
-  font-size: .7rem;
+  font-size: 1rem;
   list-style: none;
 }
 
@@ -335,8 +334,18 @@ a.img-title {
 }
 
 .deals-hr {
-  width: 80%;
+  width: 90%;
   padding-left: 0;
-  margin: auto 0;
+  margin: 10px 0;
+}
+
+.popular-head {
+  color: #ff4422;
+  font-size: 2rem;
+  font: bolder;
+}
+
+.see-deals {
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
