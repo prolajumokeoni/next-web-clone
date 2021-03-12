@@ -298,6 +298,11 @@ a.img-title {
   text-align: left;
 }
 
+.latest-header {
+  color: #ff4422;
+  font-weight: bolder;
+}
+
 .latest-image {
   width: 100px;
   height: 100px;
