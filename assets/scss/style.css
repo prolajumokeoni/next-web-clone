@@ -388,7 +388,7 @@ a.img-title {
   display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
-  width: 80%;
+  width: 100%;
   margin: auto;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -398,13 +398,14 @@ a.img-title {
 
 .social-icons {
   background-color: #aaa;
-  font-size: .5em;
+  font-size: 1rem;
+  background-size: 200px 300px;
   border-radius: 50px;
-  width: 15px;
-  height: 15px;
-  margin: 20px 0;
+  width: 30px;
+  height: 30px;
+  margin: 30px 0;
   text-align: center;
-  padding: 6px 3px 0 3px;
+  padding: 12px 6px 0 6px;
 }
 
 .footer-text {
@@ -415,12 +416,17 @@ a.img-title {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: #aaa;
+  color: #3f2828;
 }
 
 .bottom-footer {
   background-color: black;
   height: 50%;
   padding-bottom: 50%;
+}
+
+.footer-logo {
+  margin: auto;
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */
