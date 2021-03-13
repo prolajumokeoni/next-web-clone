@@ -21,7 +21,13 @@ body {
 .first-nav {
   display: none;
 }
-
+#nav {
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+}
 .mobile-nav {
   display: flex;
   justify-content:  space-between;
@@ -73,8 +79,9 @@ div.advert {
 }
 
 p.connect {
-  font-size: 1rem;
+  font-size: .85rem;
   margin: 15px auto;
+  padding-left: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -83,7 +90,7 @@ p.connect {
 .images {
   margin: auto;
   width: 95%;
-  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .image-section {
   position: relative;
@@ -94,15 +101,15 @@ p.connect {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom, rgb(22, 22, 22),rgb(29, 28, 28));
-    opacity: .5;
+    height: 184px;
+    background-image: linear-gradient(to bottom, rgb(),rgb());
+    opacity: ;
   }
 }
 
 .img-top {
   width: 100%;
-  margin: auto 0;
+  height: 184px;
   text-align: center;
 }
 

@@ -21,6 +21,14 @@ body {
   display: none;
 }
 
+#nav {
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .mobile-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,17 +86,17 @@ div.advert {
 }
 
 p.connect {
-  font-size: 1rem;
+  font-size: .85rem;
   margin: 15px auto;
+  padding-left: 15px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .images {
-  margin: auto;
+  margin: 70px auto;
   width: 95%;
-  margin-bottom: 50px;
 }
 
 .image-section {
@@ -102,8 +110,8 @@ p.connect {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#161616), to(#1d1c1c));
-  background-image: linear-gradient(to bottom, #161616, #1d1c1c);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c41414), to(#1d1c1c));
+  background-image: linear-gradient(to bottom, #c41414, #1d1c1c);
   opacity: .5;
 }
 
