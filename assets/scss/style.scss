@@ -412,11 +412,12 @@ a.img-title {
   color:#aaa;
   list-style: none;
   font-size: .6rem;
-  margin-left: 30px;
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
 
 .eve {
-  padding: 5px;
+  padding-right: 10px;
 }
 .bottom-footer {
   background-color: black;
@@ -427,22 +428,39 @@ a.img-title {
   padding-top: 40px;
 }
 
+.juju-1 {
+  color: #aaa;
+  font-size: .8rem;
+  text-align: left;
+  margin: 0 auto;
+  width: 50%;
+  padding-left: 40px;
+}
+
+.juju-2 {
+  color: #aaa;
+  font-size: .8rem;
+  text-align: left;
+  margin: 0 auto;
+  width: 50%;
+  padding-left: 40px;
+}
+
 .juju {
   color: #aaa;
   font-size: .8rem;
   text-align: left;
   margin: 0 auto;
-  width: 45%;
+  width: 50%;
 }
 
 .logo-stack {
   width: 50px;
   height: 50px;
   position: absolute;
-  right: 125px;
-  bottom: 38px;
+  right: 130px;
+  bottom: 37px;
 }
-
 
 .logo-tnw {
   width: 50px;
@@ -450,4 +468,10 @@ a.img-title {
   position: absolute;
   left: 50px;
   top: 20px;
+}
+
+.message {
+  margin: 0 auto;
+  width: 12%;
+  margin-top: -60px;
 }
