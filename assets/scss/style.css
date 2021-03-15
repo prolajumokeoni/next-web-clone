@@ -321,15 +321,13 @@ a.img-title {
 
 .deals-item {
   width: 80%;
-  margin: auto 0;
-  font-size: 1rem;
+  margin: auto;
   list-style: none;
-  text-align: justify;
+  padding-left: 0;
 }
 
 .deals-list {
   width: 100%;
-  padding-left: 0;
 }
 
 .deals-item li::before {
@@ -374,7 +372,7 @@ a.img-title {
 }
 
 .deals-line {
-  width: 100%;
+  width: 90%;
   margin: auto;
 }
 
@@ -444,12 +442,12 @@ a.img-title {
 
 .bottom-footer {
   background-color: black;
-  margin: auto 0;
+  margin: 0 auto;
   width: 100%;
   height: 100px;
   position: relative;
-  padding: 30px 0 5px;
   text-align: center;
+  padding-top: 40px;
 }
 
 .juju {
@@ -458,19 +456,19 @@ a.img-title {
   text-align: center;
 }
 
-.last-logo-1 {
-  width: 40px;
-  height: 40px;
+.logo-stack {
+  width: 50px;
+  height: 50px;
   position: absolute;
-  left: 45px;
-  margin-top: -12px;
+  right: 95px;
+  bottom: 38px;
 }
 
-.last-logo {
-  width: 60px;
-  height: 60px;
+.logo-tnw {
+  width: 50px;
+  height: 50px;
   position: absolute;
-  right: 85px;
-  top: 38px;
+  left: 30px;
+  top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
