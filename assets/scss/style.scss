@@ -96,24 +96,24 @@ p.connect {
   margin-top: 50px;
 }
 
-// .image-section {
-//   margin: 50px 0;
-//   position: relative;
+.image-section {
+  position: relative;
   
-//   &::after {
-//     content: '';
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     background-image: linear-gradient(to bottom, rgb(),rgb());
-//     opacity: .5;
-//   }
-// }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(0,0,0),rgb(0,0,0));
+    opacity: .5;
+  }
+}
 
 .img-top {
   width: 100%;
   text-align: center;
+  padding: 10px 0;
 }
 
 .img-top-text {
@@ -303,6 +303,11 @@ a.img-title {
   margin: auto 0;
   font-size: 1rem;
   list-style: none;
+  text-align: justify;
+}
+.deals-list {
+  width: 100%;
+  padding-left: 0;
 }
 
 .deals-item li::before {
@@ -311,7 +316,7 @@ a.img-title {
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-left: -2rem; /* Also needed for space (tweak if needed) */
 }
 
 .deals-hr {
@@ -326,16 +331,22 @@ a.img-title {
   font: bolder;
 }
 
+.deals-section {
+  width: 100%;
+  margin-right: 20px;
+}
+
 .see-deals {
   color: #ff4422;
+  padding-left: 10px;
 }
 
 .all-deals {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .deals-line {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 

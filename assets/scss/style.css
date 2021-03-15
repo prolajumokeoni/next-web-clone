@@ -92,15 +92,16 @@ div.advert {
 p.connect {
   font-size: .85rem;
   margin: 15px auto;
-  padding-left: 15px;
+  padding-left: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .images {
-  margin: 70px auto;
+  margin: auto;
   width: 95%;
+  margin-top: 50px;
 }
 
 .image-section {
@@ -113,16 +114,15 @@ p.connect {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#c41414), to(#1d1c1c));
-  background-image: linear-gradient(to bottom, #c41414, #1d1c1c);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background-image: linear-gradient(to bottom, black, black);
   opacity: .5;
 }
 
 .img-top {
   width: 100%;
-  margin: auto 0;
   text-align: center;
+  padding: 10px 0;
 }
 
 .img-top-text {
@@ -324,6 +324,12 @@ a.img-title {
   margin: auto 0;
   font-size: 1rem;
   list-style: none;
+  text-align: justify;
+}
+
+.deals-list {
+  width: 100%;
+  padding-left: 0;
 }
 
 .deals-item li::before {
@@ -337,7 +343,7 @@ a.img-title {
   /* Needed to add space between the bullet and the text */
   width: 1em;
   /* Also needed for space (tweak if needed) */
-  margin-left: -1em;
+  margin-left: -2rem;
   /* Also needed for space (tweak if needed) */
 }
 
@@ -353,16 +359,22 @@ a.img-title {
   font: bolder;
 }
 
+.deals-section {
+  width: 100%;
+  margin-right: 20px;
+}
+
 .see-deals {
   color: #ff4422;
+  padding-left: 10px;
 }
 
 .all-deals {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .deals-line {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
