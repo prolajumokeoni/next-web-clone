@@ -95,24 +95,24 @@ p.connect {
   width: 95%;
   margin-top: 50px;
 }
-.image-section {
-  position: relative;
+
+// .image-section {
+//   margin: 50px 0;
+//   position: relative;
   
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 184px;
-    background-image: linear-gradient(to bottom, rgb(),rgb());
-    opacity: ;
-  }
-}
+//   &::after {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     background-image: linear-gradient(to bottom, rgb(),rgb());
+//     opacity: .5;
+//   }
+// }
 
 .img-top {
   width: 100%;
-  height: 184px;
   text-align: center;
 }
 
