@@ -1,4 +1,4 @@
-# Project Name
+# Next Web Clone
 
 > This project is a clone of the original next website, responsive on mobile, medium and fullscreen devices
 
