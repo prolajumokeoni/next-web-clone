@@ -93,7 +93,7 @@ p.connect {
 .images {
   margin: auto;
   width: 95%;
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 .image-section {
@@ -151,35 +151,36 @@ a.img-title {
 }
 
 .latest {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding-left: 10px;
   font-size: 28px;
   font-weight: bolder;
-  font-family: 'Avalon', 'sans-serif';
+  font-family: 'Avalon';
   color: #ff4422;
 }
 
 .latest-img {
   width: 75px;
   height: 75px;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
 }
 
 .latest-section {
-  margin: auto;
-  width: 90%;
+  margin: 0 auto;
+  width: 95%;
 }
 
 .latest-flex {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .news {
-  width: 70%;
+  width: 90%;
   text-align: left;
+  padding-top: 5px;
 }
 
 .news-title {
@@ -205,12 +206,12 @@ a.img-title {
   color: #ff4422;
 }
 .deals-title {
-  margin: auto;
-  width: 87%;
+  margin: 0 auto;
+  width: 92%;
 }
 
 .investment-story {
-  width: 85%;
+  width: 90%;
   margin: 35px auto;
   position: relative;
 }
@@ -339,15 +340,15 @@ a.img-title {
 
 .deals-section {
   width: 100%;
+  margin: 0 auto;
 }
 
 .see-deals {
   color: #ff4422;
-  padding-left: 10px;
 }
 
 .all-deals {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .deals-line {
@@ -359,13 +360,19 @@ a.img-title {
   text-decoration: line-through;
   color: #aaa;
 }
+.span-life {
+  display: block;
+  padding-top: 5px;
+}
 
 .lastest-caption-2 {
   color: black;
+  text-decoration: none;
 }
 
 .deals-title {
-  font-weight: 1rem;
+  font-weight: .3rem;
+  line-height: 1.2;
   font-weight: bolder;
   color: black;
   text-align: start;
@@ -424,7 +431,9 @@ a.img-title {
 .juju {
   color: #aaa;
   font-size: .8rem;
-  text-align: center;
+  text-align: left;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .logo-stack {
