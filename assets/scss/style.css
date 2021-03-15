@@ -101,7 +101,7 @@ p.connect {
 .images {
   margin: auto;
   width: 95%;
-  margin-top: 50px;
+  margin-top: 120px;
 }
 
 .image-section {
@@ -111,18 +111,21 @@ p.connect {
 .image-section::after {
   content: '';
   position: absolute;
-  top: 0;
+  height: 200px;
+  top: 5px;
+  bottom: 5px;
   left: 0;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
-  background-image: linear-gradient(to bottom, black, black);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#020000));
+  background-image: linear-gradient(to bottom right, black, #020000);
   opacity: .5;
 }
 
 .img-top {
   width: 100%;
+  height: 200px;
   text-align: center;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .img-top-text {
