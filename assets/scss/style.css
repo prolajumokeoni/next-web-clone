@@ -159,8 +159,9 @@ a.img-title {
 }
 
 .latest {
-  width: 85%;
-  margin: auto;
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 10px;
   font-size: 28px;
   font-weight: bolder;
   font-family: 'Avalon', 'sans-serif';
@@ -189,7 +190,7 @@ a.img-title {
 }
 
 .news {
-  width: 60%;
+  width: 70%;
   text-align: left;
 }
 
@@ -218,7 +219,7 @@ a.img-title {
 
 .deals-title {
   margin: auto;
-  width: 85%;
+  width: 87%;
 }
 
 .investment-story {
@@ -296,6 +297,7 @@ a.img-title {
 .popular-flex {
   background-color: #ff442214;
   height: 100px;
+  margin-top: -10px;
 }
 
 .more-text {
@@ -362,7 +364,6 @@ a.img-title {
 
 .deals-section {
   width: 100%;
-  margin-right: 20px;
 }
 
 .see-deals {
@@ -371,7 +372,7 @@ a.img-title {
 }
 
 .all-deals {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .deals-line {
