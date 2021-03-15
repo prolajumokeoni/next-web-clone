@@ -299,13 +299,16 @@ a.img-title {
 }
 
 .deals-item {
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   list-style: none;
-  padding-left: 0;
+  padding-right: 20px;
+  padding-left: unset;
 }
 .deals-list {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 0;
 }
 
 .deals-item li::before {
@@ -314,11 +317,11 @@ a.img-title {
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -2rem; /* Also needed for space (tweak if needed) */
+  margin-left: -1rem; /* Also needed for space (tweak if needed) */
 }
 
 .deals-hr {
-  width: 90%;
+  width: 100%;
   padding-left: 0;
   margin: 10px 0;
 }
