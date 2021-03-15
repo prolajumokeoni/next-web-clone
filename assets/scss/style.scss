@@ -412,12 +412,14 @@ a.img-title {
   color:#aaa;
   list-style: none;
   font-size: .6rem;
-  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-right: 30px;
 }
 
 .eve {
-  font-size: 1rem;
-  padding-right: 10px;
+  font-size: .8rem;
+  padding-right: 5px;
 }
 
 .bottom-footer {
@@ -464,11 +466,11 @@ a.img-title {
 }
 
 .logo-tnw {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  left: 50px;
-  top: 20px;
+  left: 65px;
+  top: 28px;
 }
 
 .message {
