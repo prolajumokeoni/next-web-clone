@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name
 
-> One paragraph statement about the project.
+> This project is a clone of the original next website, responsive on mobile, medium and fullscreen devices
 
 # Mobile
 ![prolajumokeoni github io_next-web-clone_(Galaxy S5)](https://user-images.githubusercontent.com/69638013/111025848-341e0a00-83e7-11eb-95d4-5d4a2d3002f0.png)
