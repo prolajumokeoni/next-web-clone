@@ -25,6 +25,10 @@ a {
   display: none;
 }
 
+.main-nav {
+  display: none;
+}
+
 #nav {
   background-color: white;
   position: fixed;
@@ -200,13 +204,14 @@ a.img-title {
 .hr-latest {
   width: 1px;
   display: inline-block;
-  vertical-align: middle;
+  margin: 3px;
 }
 
 .deals-left {
   text-decoration: none;
   display: block;
   color: #f42;
+  font-size: 15px;
 }
 
 .investment-story {
@@ -328,9 +333,10 @@ a.img-title {
 }
 
 .deals-hr {
+  border-bottom: 1px solid #555;
   width: 100%;
   padding-left: 0;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .popular-head {
@@ -375,7 +381,7 @@ a.img-title {
 .deals-title {
   margin: 0 auto;
   width: 92%;
-  font-size: 0.3rem;
+  font-size: 0.9rem;
   line-height: 1.2;
   font-weight: bolder;
   color: black;
