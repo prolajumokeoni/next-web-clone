@@ -90,7 +90,7 @@ div.advert {
 }
 
 p.connect {
-  font-size: .85rem;
+  font-size: 0.85rem;
   margin: 15px auto;
   padding-left: 10px;
   white-space: nowrap;
@@ -118,7 +118,7 @@ p.connect {
   width: 100%;
   background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#020000));
   background-image: linear-gradient(to bottom right, black, #020000);
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .img-top {
@@ -144,7 +144,7 @@ p.img-caption {
 }
 
 a.img-title {
-  font-family: 'tahoma', 'sans-serif';
+  font-family: 'sans-serif';
   font-size: 20px;
   font-weight: bolder;
   color: white;
