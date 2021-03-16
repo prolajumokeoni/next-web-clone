@@ -35,7 +35,7 @@ a {
 
 .mobile-nav {
   display: flex;
-  justify-content:  space-between;
+  justify-content: space-between;
   align-items: center;
   height: 50px;
   color: white;
@@ -71,7 +71,7 @@ a {
   border-left: 1px solid rgb(228, 222, 222);
 }
 
-.bar { 
+.bar {
   padding: 15px 20px;
   color: red;
   border-left: 1px solid rgb(228, 222, 222);
@@ -100,6 +100,7 @@ p.connect {
 
 .image-section {
   position: relative;
+
   &::after {
     content: '';
     position: absolute;
@@ -108,7 +109,7 @@ p.connect {
     bottom: 5px;
     left: 0;
     width: 100%;
-    background-image: linear-gradient(to bottom right, rgb(0, 0, 0),rgb(2, 0, 0));
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(2, 0, 0));
     opacity: 0.5;
   }
 }
@@ -136,7 +137,7 @@ p.img-caption {
 }
 
 a.img-title {
-  font-family: 'sans-serif';
+  font-family: sans-serif;
   font-size: 20px;
   font-weight: bolder;
   color: rgb(255, 255, 255);
@@ -144,7 +145,7 @@ a.img-title {
 }
 
 .img-description {
-  font-family: 'ARS Maquette', 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-family: 'ARS Maquette', 'Helvetica Neue', Arial, sans-serif;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -159,8 +160,7 @@ a.img-title {
   padding-left: 10px;
   font-size: 28px;
   font-weight: bolder;
-  font-family: 'Avalon';
-  color: #ff4422;
+  color: #f42;
 }
 
 .latest-img {
@@ -206,11 +206,7 @@ a.img-title {
 .deals-left {
   text-decoration: none;
   display: block;
-  color: #ff4422;
-}
-.deals-title {
-  margin: 0 auto;
-  width: 92%;
+  color: #f42;
 }
 
 .investment-story {
@@ -220,8 +216,8 @@ a.img-title {
 }
 
 .invest-top {
-  border: 1px solid #ff4422;
-  background-color: #ff4422;
+  border: 1px solid #f42;
+  background-color: #f42;
   padding: 10.6666666667px 84px 10.6666666667px 16px;
   color: white;
   text-align: center;
@@ -238,7 +234,7 @@ a.img-title {
 .invest-text {
   background-color: #ff442214;
   padding: 10.6666666667px 120px 10.6666666667px 16px;
-  line-height: .1;
+  line-height: 0.1;
   text-align: center;
 }
 
@@ -252,7 +248,7 @@ a.img-title {
 }
 
 .hr-invest {
-  border: 1px solid #ff4422;
+  border: 1px solid #f42;
 }
 
 .last-caption {
@@ -261,12 +257,12 @@ a.img-title {
 
 .img-caption-1 {
   display: block;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.5rem;
 }
 
-.popular  {
-  margin: 0 auto 20rem auto ;
+.popular {
+  margin: 0 auto 20rem auto;
   width: 90%;
 }
 
@@ -286,8 +282,9 @@ a.img-title {
   height: 100px;
   margin-top: -10px;
 }
+
 .more-text {
-  color: #ff4422;
+  color: #f42;
   font-size: 1rem;
   font-weight: bolder;
   padding-left: 15px;
@@ -296,7 +293,7 @@ a.img-title {
 .latest-header {
   width: 30%;
   padding: 5px;
-  color: #ff4422;
+  color: #f42;
   font-weight: bolder;
   padding-left: 15px;
 }
@@ -314,6 +311,7 @@ a.img-title {
   padding-right: 20px;
   padding-left: unset;
 }
+
 .deals-list {
   width: 90%;
   margin: 0 auto;
@@ -336,9 +334,9 @@ a.img-title {
 }
 
 .popular-head {
-  color: #ff4422;
+  color: #f42;
   font-size: 2rem;
-  font: bolder;
+  font-weight: bolder;
 }
 
 .deals-section {
@@ -347,7 +345,7 @@ a.img-title {
 }
 
 .see-deals {
-  color: #ff4422;
+  color: #f42;
 }
 
 .all-deals {
@@ -363,6 +361,7 @@ a.img-title {
   text-decoration: line-through;
   color: #aaa;
 }
+
 .span-life {
   display: block;
   padding-top: 5px;
@@ -374,7 +373,9 @@ a.img-title {
 }
 
 .deals-title {
-  font-weight: .3rem;
+  margin: 0 auto;
+  width: 92%;
+  font-size: 0.3rem;
   line-height: 1.2;
   font-weight: bolder;
   color: black;
@@ -382,7 +383,7 @@ a.img-title {
 }
 
 .footer {
-  background-color: #555555;
+  background-color: #555;
   width: 100%;
   height: 70%;
   padding-left: unset;
@@ -412,16 +413,16 @@ a.img-title {
 
 .footer-text {
   display: flex;
-  color:#aaa;
+  color: #aaa;
   list-style: none;
-  font-size: .6rem;
+  font-size: 0.6rem;
   margin: 0 auto;
   padding-bottom: 20px;
   margin-right: 30px;
 }
 
 .eve {
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding-right: 5px;
 }
 
@@ -436,7 +437,7 @@ a.img-title {
 
 .juju-1 {
   color: #aaa;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: left;
   margin: 0 auto;
   width: 50%;
@@ -445,7 +446,7 @@ a.img-title {
 
 .juju-2 {
   color: #aaa;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: left;
   margin: 0 auto;
   width: 50%;
@@ -454,7 +455,7 @@ a.img-title {
 
 .juju {
   color: #aaa;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: left;
   margin: 0 auto;
   width: 50%;
@@ -481,4 +482,3 @@ a.img-title {
   width: 12%;
   margin-top: -60px;
 }
-
