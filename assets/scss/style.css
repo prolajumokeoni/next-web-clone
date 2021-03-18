@@ -665,7 +665,8 @@ a.img-title {
     display: none;
   }
   .popula {
-    width: 90%;
+    width: 98%;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -673,14 +674,10 @@ a.img-title {
         flex-wrap: wrap;
   }
   .popular {
-    width: 40%;
+    width: 47%;
   }
-  .most-popular,
-  .popular-flex {
-    width: 100%;
-  }
-  .deals-section {
-    margin-top: 3000px;
+  .most-popular {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -654,22 +654,17 @@ a.img-title {
     display: none;
   }
   .popula {
-    width: 90%;
+    width: 98%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
   }
 
   .popular {
-    width: 40%;
+    width: 47%;
   }
 
-  .most-popular,
-  .popular-flex {
-    width: 100%;
+  .most-popular {
+    margin: 0;
   }
-
-  .deals-section {
-    margin-top: 3000px;
-  }
-
 }
