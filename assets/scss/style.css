@@ -613,5 +613,42 @@ a.img-title {
     margin-top: 270px;
     width: 30%;
   }
+  .latest-sec {
+    margin-top: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 95%;
+  }
+  .latest-section {
+    width: 30%;
+    padding: 0;
+  }
+  .latest-flex {
+    display: block;
+  }
+  .news {
+    padding-top: 0;
+    display: block;
+    text-align: left;
+  }
+  .latest-img {
+    width: 230px;
+    height: 110px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

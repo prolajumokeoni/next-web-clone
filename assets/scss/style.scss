@@ -598,4 +598,32 @@ a.img-title {
     width: 30%;
   }
 
+  .latest-sec {
+    margin-top: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+  }
+  .latest-section { 
+    width: 30%;
+    padding: 0;
+  }
+  .latest-flex {
+    display: block;
+  }
+
+  .news {
+    padding-top: 0;
+    display: block;
+    text-align: left;
+  }
+  .latest-img {
+    width: 230px;
+    height: 110px;
+  }
+
 }
