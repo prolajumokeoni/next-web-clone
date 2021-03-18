@@ -620,11 +620,12 @@ a.img-title {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 85%;
-    margin-left: 40px;
+    width: 95%;
+    margin: 0 auto;
   }
   .latest {
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
   }
   .latest-section {
     width: 33%;
@@ -643,8 +644,8 @@ a.img-title {
     height: 110px;
   }
   .deals {
-    width: 100%;
-    margin: 10px auto 0 auto;
+    width: 95%;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -652,14 +653,18 @@ a.img-title {
         flex-wrap: wrap;
   }
   .deals-title {
-    margin-left: 10px;
+    width: 95%;
+    margin: 0;
+    padding: 0;
   }
   .investment-story {
     width: 30%;
+    margin-left: 20px;
   }
   .invest-top,
   .invest-text {
-    text-align: right;
+    text-align: end;
+    padding-left: 80px;
   }
   .investment-story:nth-last-of-type(4) {
     display: none;

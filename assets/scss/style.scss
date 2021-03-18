@@ -602,12 +602,13 @@ a.img-title {
   .latest-sec {
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
-    margin-left: 40px;
+    width: 95%;
+    margin: 0 auto;
   }
   
   .latest {
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .latest-section { 
@@ -631,23 +632,28 @@ a.img-title {
   }
 
   .deals {
-    width: 100%;
-    margin: 10px auto 0 auto;
+    width: 95%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 30px;
   }
 
   .deals-title {
-    margin-left: 10px;
+    width: 95%;
+    margin: 0;
+    padding: 0;
   }
 
   .investment-story {
     width: 30%;
+    margin-left: 0;
   }
 
   .invest-top,
   .invest-text {
-    text-align: right;
+    text-align: end;
+    padding-left: 80px;
   }
   
   .investment-story:nth-last-of-type(4) {
