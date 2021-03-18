@@ -601,29 +601,75 @@ a.img-title {
   .latest-sec {
     margin-top: 500px;
     display: flex;
-    flex-flow: row wrap;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
+    width: 85%;
+    margin-left: 40px;
   }
+  
+  .latest {
+    margin-left: 0;
+  }
+
   .latest-section { 
-    width: 30%;
+    width: 33%;
     padding: 0;
   }
+
   .latest-flex {
     display: block;
   }
 
   .news {
-    padding-top: 0;
+    padding: 0;
     display: block;
     text-align: left;
   }
+
   .latest-img {
-    width: 230px;
+    width: 200px;
     height: 110px;
+  }
+
+  .deals {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .deals-title {
+    margin-left: 10px;
+  }
+
+  .investment-story {
+    width: 30%;
+  }
+
+  .invest-top,
+  .invest-text {
+    text-align: right;
+  }
+  
+  .investment-story:nth-last-of-type(4) {
+    display: none;
+  }
+  .popula {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .popular {
+    width: 40%;
+  }
+
+  .most-popular,
+  .popular-flex {
+    width: 100%;
+  }
+
+  .deals-section {
+    margin-top: 3000px;
   }
 
 }
