@@ -638,6 +638,7 @@ a.img-title {
     padding: 0;
     display: block;
     text-align: left;
+    width: 80%;
   }
   .latest-img {
     width: 200px;
@@ -651,6 +652,7 @@ a.img-title {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding-top: 30px;
   }
   .deals-title {
     width: 95%;
@@ -658,31 +660,33 @@ a.img-title {
     padding: 0;
   }
   .investment-story {
-    width: 30%;
-    margin-left: 20px;
+    width: 31%;
+    margin-right: 15px;
   }
   .invest-top,
   .invest-text {
     text-align: end;
-    padding-left: 80px;
   }
   .investment-story:nth-last-of-type(4) {
     display: none;
   }
   .popula {
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-bottom: 30%;
   }
   .popular {
-    width: 47%;
-  }
-  .most-popular {
-    margin: 0;
+    width: 48%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
