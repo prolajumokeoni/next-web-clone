@@ -494,10 +494,6 @@ a.img-title {
 }
 
 @media (min-width: 768px) {
-  #nav {
-    position: relative;
-  }
-
   .first-nav-1 {
     display: flex;
     width: 100%;
@@ -558,9 +554,48 @@ a.img-title {
   .bar-icon {
     display: none;
   }
+  .advert {
+    position: relative;
+  }
   p.connect {
     text-align: left;
     padding-left: 100px;
   }
+ 
+  .images {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
   
+  .image-section:nth-child(1) {
+    position: absolute;
+    width: 66%;
+    left: 10px;
+    top: 0;
+    margin-top: 70px;
+    img {
+      height: 400px;
+    }
+    &::after {
+      height: 400px;
+    }
+  }
+
+  .image-section:nth-child(2) {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 30%;
+    margin-top: 60px;
+  }
+
+  .image-section:nth-child(3) {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    margin-top: 270px;
+    width: 30%;
+  }
+
 }
