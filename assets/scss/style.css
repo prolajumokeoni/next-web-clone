@@ -584,6 +584,7 @@ a.img-title {
   .images {
     position: relative;
     width: 100%;
+    height: 500px;
     margin: 0 auto;
   }
   .image-section:nth-child(1) {
@@ -614,7 +615,6 @@ a.img-title {
     width: 30%;
   }
   .latest-sec {
-    margin-top: 500px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -628,7 +628,7 @@ a.img-title {
   }
   .latest-section {
     width: 33%;
-    padding: 0;
+    margin: 0;
   }
   .latest-flex {
     display: block;
