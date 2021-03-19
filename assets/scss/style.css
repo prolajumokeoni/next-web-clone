@@ -688,9 +688,6 @@ a.img-title {
     margin-left: 0;
     margin-right: 0;
   }
-  .deals-section {
-    margin-bottom: 70%;
-  }
   .deals-line {
     width: 95%;
     display: -webkit-box;
@@ -726,7 +723,51 @@ a.img-title {
             transform: rotate(30deg);
   }
   .footer {
-    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .footer-icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .social-icons {
+    margin: 30px 10px;
+  }
+  .message {
+    width: 12%;
+    position: absolute;
+    top: 22%;
+    right: 14%;
+  }
+  .footer-text {
+    width: 100%;
+    margin: auto 200px;
+    text-align: center;
+  }
+  .eve {
+    padding: 0 10px;
+  }
+  .juju-1 {
+    position: absolute;
+    left: 20%;
+  }
+  .juju {
+    position: absolute;
+    left: 50%;
+  }
+  .juju-2 {
+    position: absolute;
+    left: 65%;
+  }
+  .logo-stack {
+    position: absolute;
+    right: 110px;
+    top: 16%;
+  }
+  .logo-tnw {
+    position: absolute;
+    left: 19%;
   }
 }
 /*# sourceMappingURL=style.css.map */
