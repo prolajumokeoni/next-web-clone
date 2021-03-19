@@ -688,6 +688,9 @@ a.img-title {
     margin-left: 0;
     margin-right: 0;
   }
+  .deals-section {
+    margin-bottom: 70%;
+  }
   .deals-line {
     width: 95%;
     display: -webkit-box;
@@ -721,6 +724,9 @@ a.img-title {
   .banner-text {
     -webkit-transform: rotate(30deg);
             transform: rotate(30deg);
+  }
+  .footer {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
