@@ -761,3 +761,28 @@ a.img-title {
     top: 27px;
   }
 }
+
+@media (min-width: 992px) {
+  ul.right-nav {
+    width: 35%;
+    justify-content: flex-end;
+  }
+  
+  ul.left-nav {
+    justify-content: flex-start;
+    width: 35%;
+  }
+  .background {
+    padding: 0;
+    height: 0;
+    width: 0;
+  }
+
+  .mobile-logo {
+    display: block;
+    width: 300px;
+    height: 150px;
+    top: 70px;
+    left: 10px;
+  }
+}
