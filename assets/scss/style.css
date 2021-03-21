@@ -528,7 +528,7 @@ a.img-title {
     display: flex;
     width: 100%;
     height: 40px;
-    background-color: #000000;
+    background-color: #000;
   }
   ul.left-nav {
     width: 65%;
@@ -547,10 +547,12 @@ a.img-title {
   }
   .main-nav {
     display: block;
+    margin-left: 80px;
   }
   .nav-item {
     display: inline;
     color: #aaa;
+    margin-right: 15px;
   }
   .mobile-logo {
     position: absolute;
@@ -564,12 +566,6 @@ a.img-title {
     top: 0;
     width: 50px;
     height: 55px;
-  }
-  .main-nav {
-    margin-left: 80px;
-  }
-  .nav-item {
-    margin-right: 15px;
   }
   .bar-icon {
     display: none;
@@ -633,12 +629,14 @@ a.img-title {
   }
   .latest-flex {
     display: block;
+    width: 33%;
+    position: relative;
   }
   .news {
     padding: 0;
     display: block;
     text-align: left;
-    width: 80%;
+    width: 200px;
   }
   .latest-img {
     width: 200px;
@@ -696,13 +694,6 @@ a.img-title {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .latest-flex {
-    width: 33%;
-    position: relative;
-  }
-  .news {
-    width: 200px;
-  }
   .see-deals {
     position: absolute;
     margin-top: -30px;
@@ -754,20 +745,21 @@ a.img-title {
   }
   .juju {
     position: absolute;
-    left: 50%;
+    left: 49%;
   }
   .juju-2 {
     position: absolute;
-    left: 65%;
+    left: 64%;
   }
   .logo-stack {
     position: absolute;
-    right: 110px;
+    right: 119px;
     top: 16%;
   }
   .logo-tnw {
     position: absolute;
-    left: 19%;
+    left: 19.5%;
+    top: 27px;
   }
 }
 /*# sourceMappingURL=style.css.map */
