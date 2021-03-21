@@ -498,7 +498,7 @@ a.img-title {
     display: flex;
     width: 100%;
     height: 40px;
-    background-color: #000000;
+    background-color: #000;
   }
 
   ul.left-nav {
@@ -509,6 +509,7 @@ a.img-title {
   .first-nav {
     display: inline;
   }
+
   .header-links {
     color: #555;
     margin: 5px;
@@ -521,11 +522,13 @@ a.img-title {
 
   .main-nav {
     display: block;
+    margin-left: 80px;
   }
 
   .nav-item {
     display: inline;
     color: #aaa;
+    margin-right: 15px;
   }
 
   .mobile-logo {
@@ -543,41 +546,37 @@ a.img-title {
     height: 55px;
   }
 
-  .main-nav {
-    margin-left: 80px;
-  }
-
-  .nav-item {
-    margin-right: 15px;
-  }
-
   .bar-icon {
     display: none;
   }
+
   .advert {
     position: relative;
   }
+
   p.connect {
     text-align: left;
     padding-left: 100px;
   }
- 
+
   .images {
     position: relative;
     width: 100%;
     height: 500px;
     margin: 0 auto;
   }
-  
+
   .image-section:nth-child(1) {
     position: absolute;
     width: 66%;
     left: 10px;
     top: 0;
     margin-top: 70px;
+
     img {
       height: 400px;
     }
+
     &::after {
       height: 400px;
     }
@@ -605,26 +604,28 @@ a.img-title {
     width: 95%;
     margin: 0 auto;
   }
-  
+
   .latest {
     padding: 0;
     margin: 0;
   }
 
-  .latest-section { 
+  .latest-section {
     width: 33%;
     margin: 0;
   }
 
   .latest-flex {
     display: block;
+    width: 33%;
+    position: relative;
   }
 
   .news {
     padding: 0;
     display: block;
     text-align: left;
-    width: 80%;
+    width: 200px;
   }
 
   .latest-img {
@@ -650,7 +651,7 @@ a.img-title {
     width: 31%;
     margin-right: 15px;
   }
-  
+
   .invest-top,
   .invest-text {
     text-align: end;
@@ -675,20 +676,10 @@ a.img-title {
     margin-right: 0;
   }
 
-
   .deals-line {
     width: 95%;
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .latest-flex {
-    width: 33%;
-    position: relative;
-  }
-
-  .news {
-    width: 200px;
   }
 
   .see-deals {
@@ -696,7 +687,8 @@ a.img-title {
     margin-top: -30px;
     width: 100%;
   }
-  .all-deals{
+
+  .all-deals {
     margin-left: 400px;
     text-align: end;
   }
@@ -720,7 +712,7 @@ a.img-title {
   .footer-icons {
     justify-content: center;
   }
-  
+
   .social-icons {
     margin: 30px 10px;
   }
