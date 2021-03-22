@@ -765,16 +765,22 @@ a.img-title {
 
 @media (min-width: 992px) {
   ul.right-nav {
-    width: 35%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
   ul.left-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    width: 35%;
+    margin-left: 0;
+    padding-left: 15px;
   }
   .background {
     padding: 0;
@@ -787,6 +793,19 @@ a.img-title {
     height: 150px;
     top: 70px;
     left: 10px;
+  }
+  .main-nav {
+    margin-left: 0;
+  }
+  .nav-list {
+    padding-left: 20px;
+  }
+  div.advert {
+    height: 25px;
+  }
+  p.connect {
+    margin: 7px auto;
+    padding-left: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
