@@ -783,7 +783,7 @@ a.img-title {
 
   // .mobile-logo {
   //   display: block;
-  //   position: static;
+  //   position: unset;
   //   width: 300px;
   //   height: 150px;
   //   top: 70px;
@@ -812,16 +812,39 @@ a.img-title {
   }
 
   .latest-sec {
-    width: 65%;
+    width: 75%;
     margin: 0 auto;
+    align-content: center;
   }
 
   .latest-section {
     width: 25%;
   }
 
+  .latest-flex {
+    width: 100%;
+  }
+
+  .latest-img,
+  .news {
+    width: 235px;
+  }
+
   .deals { 
-    display: block;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .latest {
+    width: 100%;
+  }
+
+  .deals-title-left {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 190px;
+    margin-top: 10px;
   }
 
   .investment-story:nth-last-of-type(4) {
@@ -829,11 +852,14 @@ a.img-title {
   }
   
   .deals-left {
+    padding-right: 5px;
     padding-left: 5px;
     border-left: 1px solid orangered;
   }
 
+
   .investment-story {
-    width: 20%;
+    width: 235px;
+    margin-left: 0;
   }
 }
