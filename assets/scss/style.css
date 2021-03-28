@@ -787,6 +787,14 @@ a.img-title {
     height: 0;
     width: 0;
   }
+  .mobile-logo {
+    margin-top: 150px;
+    margin-left: 150px;
+    -webkit-transform: scale(3.5);
+            transform: scale(3.5);
+    width: 100px;
+    height: 100px;
+  }
   .main-nav {
     margin-left: 0;
   }

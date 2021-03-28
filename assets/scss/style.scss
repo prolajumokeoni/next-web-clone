@@ -781,14 +781,13 @@ a.img-title {
     width: 0;
   }
 
-  // .mobile-logo {
-  //   display: block;
-  //   position: unset;
-  //   width: 300px;
-  //   height: 150px;
-  //   top: 70px;
-  //   left: 10px;
-  // }
+  .mobile-logo {
+    margin-top: 150px;
+    margin-left: 150px;
+    transform: scale(3.5);
+    width: 100px;
+    height: 100px;
+  }
 
   .main-nav {
     margin-left: 0;
@@ -870,4 +869,8 @@ a.img-title {
   .popular {
     width: 300px;
   }
+  // .deals-section {
+  //   width: 75%;
+  //   margin: 0 auto;
+  // }
 }
