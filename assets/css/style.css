@@ -38,12 +38,18 @@ a {
 }
 
 .mobile-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 50px;
   color: white;
-  border: 1px solid rgb(228, 222, 222);
+  border: 1px solid #e4dede;
 }
 
 .background {
@@ -71,14 +77,14 @@ a {
 
 .search {
   padding: 15px;
-  color: rgb(51, 51, 51);
-  border-left: 1px solid rgb(228, 222, 222);
+  color: #333333;
+  border-left: 1px solid #e4dede;
 }
 
 .bar {
   padding: 15px 20px;
   color: red;
-  border-left: 1px solid rgb(228, 222, 222);
+  border-left: 1px solid #e4dede;
 }
 
 div.advert {
@@ -104,18 +110,19 @@ p.connect {
 
 .image-section {
   position: relative;
+}
 
-  &::after {
-    content: '';
-    position: absolute;
-    height: 200px;
-    top: 5px;
-    bottom: 5px;
-    left: 0;
-    width: 100%;
-    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(2, 0, 0));
-    opacity: 0.5;
-  }
+.image-section::after {
+  content: '';
+  position: absolute;
+  height: 200px;
+  top: 5px;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(black), to(#020000));
+  background-image: linear-gradient(to bottom right, black, #020000);
+  opacity: 0.5;
 }
 
 .img-top {
@@ -144,7 +151,7 @@ a.img-title {
   font-family: sans-serif;
   font-size: 20px;
   font-weight: bolder;
-  color: rgb(255, 255, 255);
+  color: white;
   text-decoration: none;
 }
 
@@ -180,8 +187,12 @@ a.img-title {
 
 .latest-flex {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .news {
@@ -257,7 +268,7 @@ a.img-title {
 }
 
 .last-caption {
-  color: rgb(29, 28, 28);
+  color: #1d1c1c;
 }
 
 .img-caption-1 {
@@ -278,8 +289,12 @@ a.img-title {
 .more-latest {
   width: 100%;
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .popular-flex {
@@ -324,12 +339,18 @@ a.img-title {
 }
 
 .deals-item li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: red; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1rem; /* Also needed for space (tweak if needed) */
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1rem;
+  /* Also needed for space (tweak if needed) */
 }
 
 .deals-hr {
@@ -401,11 +422,16 @@ a.img-title {
 
 .footer-icons {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   width: 100%;
   margin: auto;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding-left: 0;
 }
 
@@ -422,6 +448,8 @@ a.img-title {
 }
 
 .footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: #aaa;
   list-style: none;
@@ -495,49 +523,43 @@ a.img-title {
 
 @media (min-width: 768px) {
   .first-nav-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: 40px;
     background-color: #000;
   }
-
   ul.left-nav {
     width: 65%;
     margin-left: 50px;
   }
-
   .first-nav {
     display: inline;
   }
-
   .header-links {
     color: #555;
     margin: 5px;
   }
-
   ul.right-nav {
     width: 35%;
     padding-left: 0;
   }
-
   .main-nav {
     display: block;
     margin-left: 80px;
   }
-
   .nav-item {
     display: inline;
     color: #aaa;
     margin-right: 15px;
   }
-
   .mobile-logo {
     position: absolute;
     left: 0;
     top: 0;
     margin: 50px 10px;
   }
-
   .background {
     position: absolute;
     left: 0;
@@ -545,43 +567,35 @@ a.img-title {
     width: 50px;
     height: 55px;
   }
-
   .bar-icon {
     display: none;
   }
-
   .advert {
     position: relative;
   }
-
   p.connect {
     text-align: left;
     padding-left: 100px;
   }
-
   .images {
     position: relative;
     width: 100%;
     height: 500px;
     margin: 0 auto;
   }
-
   .image-section:nth-child(1) {
     position: absolute;
     width: 66%;
     left: 10px;
     top: 0;
     margin-top: 70px;
-
-    img {
-      height: 400px;
-    }
-
-    &::after {
-      height: 400px;
-    }
   }
-
+  .image-section:nth-child(1) img {
+    height: 400px;
+  }
+  .image-section:nth-child(1)::after {
+    height: 400px;
+  }
   .image-section:nth-child(2) {
     position: absolute;
     right: 10px;
@@ -589,7 +603,6 @@ a.img-title {
     width: 30%;
     margin-top: 60px;
   }
-
   .image-section:nth-child(3) {
     position: absolute;
     right: 10px;
@@ -597,164 +610,152 @@ a.img-title {
     margin-top: 270px;
     width: 30%;
   }
-
   .latest-sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 95%;
     margin: 0 auto;
   }
-
   .latest {
     padding: 0;
     margin: 0;
   }
-
   .latest-section {
     width: 33%;
     margin: 0;
   }
-
   .latest-flex {
     display: block;
     width: 33%;
     position: relative;
   }
-
   .news {
     padding: 0;
     display: block;
     text-align: left;
     width: 200px;
   }
-
   .latest-img {
     width: 200px;
     height: 110px;
   }
-
   .deals {
     width: 95%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding-top: 30px;
   }
-
   .deals-title {
     width: 95%;
     margin: 0;
     padding: 0;
   }
-
   .investment-story {
     width: 31%;
     margin-right: 15px;
   }
-
   .invest-top,
   .invest-text {
     text-align: end;
   }
-
   .investment-story:nth-last-of-type(4) {
     display: none;
   }
-
   .popula {
     width: 95%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 5%;
   }
-
   .popular {
     width: 48%;
     margin-left: 0;
     margin-right: 0;
   }
-
   .deals-line {
     width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-
   .see-deals {
     position: absolute;
     margin-top: -30px;
     width: 100%;
   }
-
   .all-deals {
     margin-left: 400px;
     text-align: end;
   }
-
   .banner {
     display: none;
     position: absolute;
     top: 15px;
     right: 10px;
   }
-
   .banner-text {
-    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
   }
-
   .footer {
     position: relative;
     width: 100%;
   }
-
   .footer-icons {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-
   .social-icons {
     margin: 30px 10px;
   }
-
   .message {
     width: 12%;
     position: absolute;
     top: 22%;
     right: 14%;
   }
-
   .footer-text {
     width: 100%;
     margin: auto 200px;
     text-align: center;
   }
-
   .eve {
     padding: 0 10px;
   }
-
   .juju-1 {
     position: absolute;
     left: 20%;
   }
-
   .juju {
     position: absolute;
     left: 49%;
   }
-
   .juju-2 {
     position: absolute;
     left: 64%;
   }
-
   .logo-stack {
     position: absolute;
     right: 119px;
     top: 16%;
   }
-
   .logo-tnw {
     position: absolute;
     left: 19.5%;
@@ -764,76 +765,63 @@ a.img-title {
 
 @media (min-width: 992px) {
   ul.right-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-
   ul.left-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-left: 0;
     padding-left: 15px;
   }
-
   .background {
     padding: 0;
     height: 0;
     width: 0;
   }
-
-  // .mobile-logo {
-  //   display: block;
-  //   position: static;
-  //   width: 300px;
-  //   height: 150px;
-  //   top: 70px;
-  //   left: 10px;
-  // }
-
   .main-nav {
     margin-left: 0;
   }
-
   .nav-list {
     padding-left: 20px;
   }
-
   div.advert {
     height: 25px;
   }
-
   p.connect {
     margin: 7px auto;
     padding-left: 20px;
   }
-
   .image-section:nth-child(1) {
     width: 67.5%;
   }
-
   .latest-sec {
     width: 65%;
     margin: 0 auto;
   }
-
   .latest-section {
     width: 25%;
   }
-
-  .deals { 
+  .deals {
     display: block;
   }
-
   .investment-story:nth-last-of-type(4) {
     display: block;
   }
-  
   .deals-left {
     padding-left: 5px;
     border-left: 1px solid orangered;
   }
-
   .investment-story {
     width: 20%;
   }
 }
+/*# sourceMappingURL=style.css.map */

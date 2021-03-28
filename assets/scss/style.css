@@ -42,11 +42,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 50px;
   color: white;
   border: 1px solid #e4dede;
@@ -77,7 +77,7 @@ a {
 
 .search {
   padding: 15px;
-  color: #333333;
+  color: #333;
   border-left: 1px solid #e4dede;
 }
 
@@ -191,8 +191,8 @@ a.img-title {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .news {
@@ -293,8 +293,8 @@ a.img-title {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .popular-flex {
@@ -340,16 +340,22 @@ a.img-title {
 
 .deals-item li::before {
   content: "\2022";
+
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: red;
+
   /* Change the color */
   font-weight: bold;
+
   /* If you want it to be bold */
   display: inline-block;
+
   /* Needed to add space between the bullet and the text */
   width: 1em;
+
   /* Also needed for space (tweak if needed) */
   margin-left: -1rem;
+
   /* Also needed for space (tweak if needed) */
 }
 
@@ -426,12 +432,12 @@ a.img-title {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   width: 100%;
   margin: auto;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   padding-left: 0;
 }
 
@@ -530,36 +536,44 @@ a.img-title {
     height: 40px;
     background-color: #000;
   }
+
   ul.left-nav {
     width: 65%;
     margin-left: 50px;
   }
+
   .first-nav {
     display: inline;
   }
+
   .header-links {
     color: #555;
     margin: 5px;
   }
+
   ul.right-nav {
     width: 35%;
     padding-left: 0;
   }
+
   .main-nav {
     display: block;
     margin-left: 80px;
   }
+
   .nav-item {
     display: inline;
     color: #aaa;
     margin-right: 15px;
   }
+
   .mobile-logo {
     position: absolute;
     left: 0;
     top: 0;
     margin: 50px 10px;
   }
+
   .background {
     position: absolute;
     left: 0;
@@ -567,22 +581,27 @@ a.img-title {
     width: 50px;
     height: 55px;
   }
+
   .bar-icon {
     display: none;
   }
+
   .advert {
     position: relative;
   }
+
   p.connect {
     text-align: left;
     padding-left: 100px;
   }
+
   .images {
     position: relative;
     width: 100%;
     height: 500px;
     margin: 0 auto;
   }
+
   .image-section:nth-child(1) {
     position: absolute;
     width: 66%;
@@ -590,12 +609,15 @@ a.img-title {
     top: 0;
     margin-top: 70px;
   }
+
   .image-section:nth-child(1) img {
     height: 400px;
   }
+
   .image-section:nth-child(1)::after {
     height: 400px;
   }
+
   .image-section:nth-child(2) {
     position: absolute;
     right: 10px;
@@ -603,6 +625,7 @@ a.img-title {
     width: 30%;
     margin-top: 60px;
   }
+
   .image-section:nth-child(3) {
     position: absolute;
     right: 10px;
@@ -610,38 +633,45 @@ a.img-title {
     margin-top: 270px;
     width: 30%;
   }
+
   .latest-sec {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 95%;
     margin: 0 auto;
   }
+
   .latest {
     padding: 0;
     margin: 0;
   }
+
   .latest-section {
     width: 33%;
     margin: 0;
   }
+
   .latest-flex {
     display: block;
     width: 33%;
     position: relative;
   }
+
   .news {
     padding: 0;
     display: block;
     text-align: left;
     width: 200px;
   }
+
   .latest-img {
     width: 200px;
     height: 110px;
   }
+
   .deals {
     width: 95%;
     margin: 0 auto;
@@ -649,25 +679,30 @@ a.img-title {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-top: 30px;
   }
+
   .deals-title {
     width: 95%;
     margin: 0;
     padding: 0;
   }
+
   .investment-story {
     width: 31%;
     margin-right: 15px;
   }
+
   .invest-top,
   .invest-text {
     text-align: end;
   }
+
   .investment-story:nth-last-of-type(4) {
     display: none;
   }
+
   .popula {
     width: 95%;
     margin: 0 auto;
@@ -675,87 +710,104 @@ a.img-title {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-bottom: 5%;
   }
+
   .popular {
     width: 48%;
     margin-left: 0;
     margin-right: 0;
   }
+
   .deals-line {
     width: 95%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
+
   .see-deals {
     position: absolute;
     margin-top: -30px;
     width: 100%;
   }
+
   .all-deals {
     margin-left: 400px;
     text-align: end;
   }
+
   .banner {
     display: none;
     position: absolute;
     top: 15px;
     right: 10px;
   }
+
   .banner-text {
     -webkit-transform: rotate(30deg);
-            transform: rotate(30deg);
+    transform: rotate(30deg);
   }
+
   .footer {
     position: relative;
     width: 100%;
   }
+
   .footer-icons {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .social-icons {
     margin: 30px 10px;
   }
+
   .message {
     width: 12%;
     position: absolute;
     top: 22%;
     right: 14%;
   }
+
   .footer-text {
     width: 100%;
     margin: auto 200px;
     text-align: center;
   }
+
   .eve {
     padding: 0 10px;
   }
+
   .juju-1 {
     position: absolute;
     left: 20%;
   }
+
   .juju {
     position: absolute;
     left: 49%;
   }
+
   .juju-2 {
     position: absolute;
     left: 64%;
   }
+
   .logo-stack {
     position: absolute;
     right: 119px;
     top: 16%;
   }
+
   .logo-tnw {
     position: absolute;
     left: 19.5%;
@@ -769,24 +821,27 @@ a.img-title {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
+
   ul.left-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     margin-left: 0;
     padding-left: 15px;
   }
+
   .background {
     padding: 0;
     height: 0;
     width: 0;
   }
+
   .mobile-logo {
     display: block;
     position: absolute;
@@ -795,51 +850,61 @@ a.img-title {
     top: 70px;
     left: 10px;
   }
+
   .main-nav {
     margin-left: 0;
   }
+
   .nav-list {
     padding-left: 20px;
   }
+
   div.advert {
     height: 25px;
   }
+
   p.connect {
     margin: 7px auto;
     padding-left: 20px;
   }
+
   .image-section:nth-child(1) {
     width: 67.5%;
   }
+
   .latest-sec {
     width: 65%;
     margin: 0 auto;
   }
+
   .latest-section {
     width: 25%;
   }
+
   .deals {
     width: 65%;
     margin: 0 auto;
     position: relative;
   }
+
   .deals-title-left {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
+
   .deals-left {
     padding-left: 5px;
     border-left: 1px solid orangered;
   }
+
   .deals-title-left:nth-child(1) {
     border-left: 1px solid black;
   }
 }
-/*# sourceMappingURL=style.css.map */
