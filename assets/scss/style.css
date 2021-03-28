@@ -849,5 +849,14 @@ a.img-title {
     width: 235px;
     margin-left: 0;
   }
+  .popula {
+    width: 75%;
+    margin: 0 auto;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .popular {
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
