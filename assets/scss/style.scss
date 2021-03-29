@@ -821,7 +821,7 @@ a.img-title {
   }
 
   .latest-flex {
-    width: 100%;
+    width: 25%;
   }
 
   .latest-img,
@@ -829,7 +829,7 @@ a.img-title {
     width: 235px;
   }
 
-  .deals { 
+  .deals {
     width: 75%;
     margin: 0 auto;
   }
@@ -846,31 +846,82 @@ a.img-title {
     margin-top: 10px;
   }
 
+  .investment-story {
+    width: 235px;
+    margin-left: 0;
+  }
+
   .investment-story:nth-last-of-type(4) {
     display: block;
   }
-  
+
   .deals-left {
     padding-right: 5px;
     padding-left: 5px;
     border-left: 1px solid orangered;
   }
 
-
-  .investment-story {
-    width: 235px;
-    margin-left: 0;
-  }
   .popula {
     width: 75%;
     margin: 0 auto;
     align-content: center;
   }
+
   .popular {
     width: 300px;
   }
-  // .deals-section {
-  //   width: 75%;
-  //   margin: 0 auto;
-  // }
+
+  .deals-section {
+    margin-top: 5%;
+  }
+
+  .deals-line {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .see-deals {
+    width: 100%;
+  }
+
+  .all-deals {
+    margin-left: 740px;
+  }
+
+  .message {
+    right: 450px;
+  }
+
+  .footer-text {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .bottom-footer {
+    width: 100%;
+  }
+
+  .logo-tnw {
+    left: 450px;
+  }
+
+  .juju-1 {
+    left: 500px;
+  }
+
+  .juju {
+    left: 690px;
+  }
+
+  .juju-2 {
+    right: 700px;
+  }
+
+  .logo-stack {
+    left: 850px;
+  }
 }
