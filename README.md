@@ -4,7 +4,10 @@
 
 > A clone of the original The next web page, built with responsive design.
 
-# Mobile
+# Mobile Screenshot
+![prolajumokeoni github io_next-web-clone_(Galaxy S5)](https://user-images.githubusercontent.com/69638013/112832690-959fd300-908d-11eb-9ebb-f862d3707317.png)
+
+
 
 
 
